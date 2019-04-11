@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C98E0B4225E62AB00FCB59B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C98E0B3225E62AB00FCB59B /* CloudKit.framework */; };
 		8CF19F3B225DB8A700E3EBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF19F3A225DB8A700E3EBDC /* AppDelegate.swift */; };
-		8CF19F3D225DB8A700E3EBDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF19F3C225DB8A700E3EBDC /* ViewController.swift */; };
 		8CF19F40225DB8A700E3EBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF19F3E225DB8A700E3EBDC /* Main.storyboard */; };
 		8CF19F42225DB8A700E3EBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF19F41225DB8A700E3EBDC /* Assets.xcassets */; };
 		8CF19F45225DB8A700E3EBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF19F43225DB8A700E3EBDC /* LaunchScreen.storyboard */; };
+		8CF19F4D225DB9C500E3EBDC /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF19F4C225DB9C500E3EBDC /* FirstTableViewController.swift */; };
+		8CF19F4F225DBA1100E3EBDC /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF19F4E225DBA1100E3EBDC /* AddEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C98E0B1225E62A900FCB59B /* CloudKitPractice2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitPractice2.entitlements; sourceTree = "<group>"; };
+		8C98E0B3225E62AB00FCB59B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		8CF19F37225DB8A700E3EBDC /* CloudKitPractice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitPractice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF19F3A225DB8A700E3EBDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CF19F3C225DB8A700E3EBDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CF19F3F225DB8A700E3EBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CF19F41225DB8A700E3EBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CF19F44225DB8A700E3EBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF19F46225DB8A700E3EBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF19F4C225DB9C500E3EBDC /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		8CF19F4E225DBA1100E3EBDC /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C98E0B4225E62AB00FCB59B /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C98E0B2225E62AB00FCB59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C98E0B3225E62AB00FCB59B /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CF19F2E225DB8A700E3EBDC = {
 			isa = PBXGroup;
 			children = (
 				8CF19F39225DB8A700E3EBDC /* CloudKitPractice2 */,
 				8CF19F38225DB8A700E3EBDC /* Products */,
+				8C98E0B2225E62AB00FCB59B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +69,14 @@
 		8CF19F39225DB8A700E3EBDC /* CloudKitPractice2 */ = {
 			isa = PBXGroup;
 			children = (
+				8C98E0B1225E62A900FCB59B /* CloudKitPractice2.entitlements */,
 				8CF19F3A225DB8A700E3EBDC /* AppDelegate.swift */,
-				8CF19F3C225DB8A700E3EBDC /* ViewController.swift */,
 				8CF19F3E225DB8A700E3EBDC /* Main.storyboard */,
+				8CF19F4E225DBA1100E3EBDC /* AddEditViewController.swift */,
 				8CF19F41225DB8A700E3EBDC /* Assets.xcassets */,
 				8CF19F43225DB8A700E3EBDC /* LaunchScreen.storyboard */,
 				8CF19F46225DB8A700E3EBDC /* Info.plist */,
+				8CF19F4C225DB9C500E3EBDC /* FirstTableViewController.swift */,
 			);
 			path = CloudKitPractice2;
 			sourceTree = "<group>";
@@ -96,6 +113,14 @@
 				TargetAttributes = {
 					8CF19F36225DB8A700E3EBDC = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF19F3D225DB8A700E3EBDC /* ViewController.swift in Sources */,
+				8CF19F4D225DB9C500E3EBDC /* FirstTableViewController.swift in Sources */,
 				8CF19F3B225DB8A700E3EBDC /* AppDelegate.swift in Sources */,
+				8CF19F4F225DBA1100E3EBDC /* AddEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitPractice2/CloudKitPractice2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY7BG2G9TC;
 				INFOPLIST_FILE = CloudKitPractice2/Info.plist;
@@ -300,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitPractice2/CloudKitPractice2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY7BG2G9TC;
 				INFOPLIST_FILE = CloudKitPractice2/Info.plist;
